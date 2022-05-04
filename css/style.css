@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-wrapper{
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 1600px;
+    padding-right: 130px;
+    padding-left:  130px;
+}
+/* NAVIGATION BLOCK */
+.navigation nav{
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    
+}
+.navigation-menu ul{
+    display: flex;
+    list-style: none;
+}
+.navigation-menu ul li{
+    display: flex;
+    padding-right: 50px;
+}
+.navigation-menu ul li:last-child{
+    padding-right: 0;
+}
+.navigation-menu ul a{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #263238;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.navigation-menu ul a:hover{
+    color: #7f7f7f;
+}
+.navigation-logo{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 36px;
+    color: black;
+    max-width: 106px;
+    text-decoration: none;
+}
+.navigation-logo span{
+    color: #939393;
+}
+.navigation-talk-button a{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid #263238;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 17px 57px;
+    transition: 0.3s;
+}
+.navigation-talk-button a:hover{
+    color: white;
+    background-color: #263238;
+}
+/* SLOGAN BLOCK */
+.slogan{
+    padding-top: 125px;
+    display: flex;
+}
+.slogan-img img{
+    padding-left: 70px;
+}
+.slogan-text__header{
+    display: flex;
+    align-items: center;
+}
+.slogan-text__header h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 64px;
+    color: #000000;
+    max-width: 386px;
+    margin-right: 38px;
+}
+.slogan-text p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    color: #8F95A5;
+    max-width: 526px;
+    padding-top: 40px;
+    padding-bottom: 61px;
+}
+.slogan-text-button{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    background: #263238;
+    border: 2px solid #263238;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 30px 115px;
+}
+.slogan-text-button:hover{
+    color: #263238;
+    background-color: white;
+    border: 2px solid #263238;
+}
