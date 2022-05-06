@@ -180,12 +180,12 @@
     padding-bottom: 70px;
 }
 .skills-card-2{
-    padding: 12px 19px 40px 40px;
     background-color: #F5F5F5;
     border-radius: 10px;
     width: 50%;
     height: 581px;
     margin-right: 18px;
+    padding: 12px 19px 40px 40px;
 }
 .skills-card-2 h3{
     padding-top: 5px;
@@ -197,11 +197,11 @@
     padding-top: 10px;
 }
 .skills-card-3{
-    padding: 31px 19px 59px 40px;
     background-color: #F5F5F5;
     border-radius: 10px;
     width: 50%;
     height: 581px;
+    padding: 31px 19px 59px 40px;
 }
 .skills-card-3 h3{
     padding-top: 27px;
@@ -212,11 +212,112 @@
 }
 .skills-card-4{
     display: flex;
-    margin-top: 18px;
-    padding: 43px 25px 33px 48px;
     background-color: #F5F5F5;
     border-radius: 10px;
+    margin-top: 18px;
+    padding: 43px 25px 33px 48px;
 }
 .skills-card-4-text p{
     padding-bottom: 40px;
+}
+/* About us block */
+.about-us{
+    display: flex;
+    padding-top: 282px;
+}
+.about-us-text h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+}
+.about-us-text p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+    max-width: 635px;
+    padding-top: 23px;
+}
+.about-us-statistic{
+    display: flex;
+    padding-top: 45px;
+}
+.about-us-statistic-style{
+    padding-right: 144px;
+}
+.about-us-statistic-style:last-child{
+    padding-right: 194px;
+}
+.about-us-statistic-style h4{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    color: #2A3246;
+    text-align: center;
+}
+.about-us-statistic-style p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+    text-align: center;
+}
+/* Pricing block */
+.pricing{
+    padding-top: 212px;
+}
+.pricing-header{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+}
+.pricing-cards{
+    display: flex;
+}
+.pricing-cards-style h5{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    color: #263238;
+    padding-top: 40px;
+}
+.pricing-cards-style p:first-of-type{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+    padding-top: 20px;
+    padding-bottom: 29px;
+}
+.pricing-cards-price{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 30px;
+    color: #263238;
+    background: #EEEEEE;
+    border-radius: 5px;
+    text-align: center;
+    width: 240px;
+}
+.pricing-cards-price span{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    color: #546269;
+}
+.pricing-cards-2{
+    padding: 0 50px;
+}
+.pricing-cards-2 h5{
+    padding-top: 56px;
+}
+.pricing-cards-2 .pricing-cards-price{
+    margin-top: 30px;
+}
+.pricing-cards-3 h5{
+    padding-top: 25px;
 }
