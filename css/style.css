@@ -321,3 +321,78 @@
 .pricing-cards-3 h5{
     padding-top: 25px;
 }
+/* contact us block */
+.contact-us{
+    display: flex;
+    padding-top: 261px;
+}
+.contact-us-text h5{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 48px;
+    color: #000000;
+    padding-top: 20px;
+}
+.contact-us-text p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    color: #8F95A5;
+    width: 776px;
+    padding-top: 37px;
+}
+.contact-us-form{
+    padding-top: 51px;
+}
+.contact-us-form form{
+    display: flex;
+}
+.contact-us-form input{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #8F95A5;
+    border: 1px solid #8F95A5;
+    border-radius: 10px;
+    padding: 26px 276px 30px 33px;
+    margin-right: 10px;
+}
+.contact-us-form input:focus{
+    color: #000000;
+}
+.contact-us-form button{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #263238;
+    border: 2px solid #263238;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 23px 79px;
+    transition: 0.3s;
+}
+.contact-us-form button:hover{
+    border: 2px solid #263238;
+    color: #263238;
+    background-color: white;
+}
+/* Footer block */
+.footer-block{
+    margin-top: 165px;
+
+    border-top: 1px solid #c4c4c4;
+}
+.footer-block-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 55px;
+    padding-bottom: 64px;
+}
+.footer-terms p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    color: #8F95A5;
+}
