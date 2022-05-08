@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### In Progress:
 - Adaptive version for all devices!
 
+## [1.1.0] - 2022-05-08
+### Info: 
+- I found a bug in Chrome where i cand make an adaptive in Device Toolbar. So i will continue working with this proj. when whis but will be fixed.
+
 ## [1.0.0] - 2022-05-07
 ### Added:
 - Block "Contact us"
